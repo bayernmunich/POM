@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings
+    xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd"
+    xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <servers>
+        <server>
+  <id>kmbl-vsts-poc-visualstudio.com-package-feed</id>
+  <configuration>
+    <httpHeaders>
+      <property>
+        <name>Authorization</name>
+        <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+        <!-- The generated token expires on or before 9/3/2018 -->
+        <value>Basic ZWNhbmFyeXM4OmV5SjBlWEFpT2lKS1YxUWlMQ0poYkdjaU9pSlNVekkxTmlJc0luZzFkQ0k2SW05UGRtTjZOVTFmTjNBdFNHcEpTMnhHV0hvNU0zVmZWakJhYnlKOS5leUp1WVcxbGFXUWlPaUl3WW1JMllqVmxNUzB4T1RrekxUUmhNR0V0T0RNM1pTMDJOMlU1WW1JM1lqRTRORFVpTENKelkzQWlPaUoyYzI4dVpISnZjRjkzY21sMFpTQjJjMjh1Y0dGamEyRm5hVzVuWDNkeWFYUmxJaXdpWVhWcElqb2lZbVU1WlRNMU16TXRZakE1WWkwME5XRmxMVGcyTWpFdE5HRXhNelExWXprek9EQmtJaXdpYzJsa0lqb2lNbU0xWVdWbFpEQXROREV3WlMwME5HWTVMVGxrT0RRdE5UQmpOV0UyWlRFM09XTXdJaXdpYVhOeklqb2lZWEJ3TG5aemMzQnpMblpwYzNWaGJITjBkV1JwYnk1amIyMGlMQ0poZFdRaU9pSmhjSEF1ZG5OemNITXVkbWx6ZFdGc2MzUjFaR2x2TG1OdmJYeDJjMjg2WkRaak56VTJaak10TldFMFlTMDBOakE1TFRnMlpHUXRZV0ppTURKa00yUmtOemRqSWl3aWJtSm1Jam94TlRJNE1UazBNamc0TENKbGVIQWlPakUxTXpVNU56QXlPRGg5LkdSWG9hZDRSVWFxaF9YeDBBVFpRcVNxMWlyVnVJVVdObUU3bWpFenVhUFFmemZGVDlHMF9pWDd4TDVFNWZSWWhZVnZyNFlZeG82cXlPR3h0NS16c0lqVFRERXQ1NENISlRUOUdmU2VIOHhYa2JiTFRFclFkMTdlc2d4RjRLZGE2QzBwbWlPeTRfWFhZb3FjbGJobmo4R2JxMmhyZnVnV3NDTjZIcmxzcTNucWlkVGd3RFA4VC13TExYSGFURGxHOG5VT2xGVWNVVHAxa1ZxQW5raHFKbWd4eE9SSEFUUGZOSzFBRFVYY0VrcXVPSU5NZVNMcHcyRERSNURtaTk0dmU5UTVyOE9PNnVldnFScE5TSmZSdzBISUxQREtndmxHd3NJRzA5UnVTQWYxQ3JBeHljSTdOWnpRdzlEbmVaYXVVa3FIdFhqcUVhNlFyNGZmMTVnU19rZw==</value>
+      </property>
+    </httpHeaders>
+  </configuration>
+</server>
+    </servers>
+</settings>
