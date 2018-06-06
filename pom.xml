@@ -6,11 +6,17 @@
   <artifactId>ojdbc6</artifactId>
   <version>11.2.0.3</version>
   <description>Artifactory auto generated POM</description>
-  
+  <dependencies>
+  <dependency>
+    <groupId>oracle</groupId>
+    <artifactId>ojdbc6</artifactId>
+    <version>11.2.0.3</version>
+</dependency>
+</dependencies>
   <repositories>
 		<repository>
-			<id>kmbl-vsts-poc-visualstudio.com-package-feed</id>
-			<url>https://kmbl-vsts-poc.pkgs.visualstudio.com/_packaging/Package-Feed/maven/v1</url>
+			<id>aniruddhajere-visualstudio.com-package</id>
+			<url>https://aniruddhajere.pkgs.visualstudio.com/_packaging/Package/maven/v1</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -22,8 +28,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>kmbl-vsts-poc-visualstudio.com-package-feed</id>
-			<url>https://kmbl-vsts-poc.pkgs.visualstudio.com/_packaging/Package-Feed/maven/v1</url>
+			<id>aniruddhajere-visualstudio.com-package</id>
+			<url>https://aniruddhajere.pkgs.visualstudio.com/_packaging/Package/maven/v1</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
